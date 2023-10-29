@@ -1,0 +1,35 @@
+Step 1: Create a Simple Node.js/Express.js Codebase:
+You can create a simple Node.js/Express.js codebase as described in your project 
+Step 2: Set Up AWS Lambda Function:
+
+Open the AWS Management Console and navigate to AWS Lambda.
+Click "Create function."
+Choose "Author from scratch."
+Fill in the function name and select Node.js 14.x as the runtime.
+In the "Function code" section, you can either copy and paste your Node.js code or upload a .zip file with your code.
+Step 2: Set Up AWS Lambda Function:
+
+Open the AWS Management Console and navigate to AWS Lambda.
+Click "Create function."
+Choose "Author from scratch."
+Fill in the function name and select Node.js 14.x as the runtime.
+In the "Function code" section, you can either copy and paste your Node.js code or upload a .zip file with your code.
+Step 3: Configure the AWS Lambda Function:
+
+In the "Execution role" section, create a new role with the necessary permissions to access AWS Lambda, API Gateway, and other resources your function might need.
+Configure any environment variables that your Lambda function requires (e.g., if you have specific configurations or API keys).
+Step 4: Create an API Gateway:
+
+In the AWS Management Console, navigate to API Gateway.
+Click "Create API."
+Choose "HTTP API" and click "Build."
+Configure your API, and create a new resource and method (e.g., POST).
+In the "Integration" settings, link the API Gateway to your Lambda function.
+Step 5: Deploy Your API:
+
+Deploy your API to a stage (e.g., "production").
+Note the API endpoint URL that is generated.
+Step 6: Test Your API:
+You can use the curl command or Postman to test your API.
+
+Using curl:
