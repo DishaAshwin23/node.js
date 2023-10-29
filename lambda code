@@ -1,0 +1,8 @@
+exports.handler = async (event, context) => {
+  // Your code logic here
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify('Hello from AWS Lambda!'),
+  };
+  return response;
+};
